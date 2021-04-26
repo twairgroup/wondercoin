@@ -17,7 +17,7 @@ Please give us some time, because we only have 2 people doing development work. 
 
 We can't wait to meet you! Looking forward to having WonderCoin with you in the coming days!
 
-Be safe and happy every day
+Stay safe and happy every day
 
 Twairgroup & Edward
 
