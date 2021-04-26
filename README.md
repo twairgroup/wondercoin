@@ -19,6 +19,6 @@ We can't wait to meet you! Looking forward to having WonderCoin with you in the 
 
 Stay safe and happy every day
 
-Twairgroup & Edward
+Twairgroup & Whisper
 
 April 26 2021
