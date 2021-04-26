@@ -1,0 +1,5 @@
+Building Wondercoin
+
+See doc/build-*.md for instructions on building wondercoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Wondercoin.
