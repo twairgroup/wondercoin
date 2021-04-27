@@ -13,7 +13,7 @@ Interesting question, WonderCoin will be obtained through GPU mining. We use the
 
 Where is your white paper and official website?
 
-Please give us some time, because we only have 2 people doing development work. So before everything is ready, we will put the official website link here: (WonderCoin's official website)
+Please give us some time, because we only have 2 people doing development work. So before everything is ready, we will put the official website link here: (https://wondercoin.ca/)
 
 We can't wait to meet you! Looking forward to having WonderCoin with you in the coming days!
 
