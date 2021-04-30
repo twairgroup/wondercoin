@@ -22,3 +22,11 @@ Stay safe and happy every day
 Twairgroup & Whisper
 
 April 26 2021
+
+Developer log：
+April 21 2021
+The main source code has been developed and will be debugged soon.
+
+April 24 2021
+New feature: transactions can be withdrawn within 5 seconds
+and still debug
