@@ -21,7 +21,7 @@ Stay safe and happy every day
 
 Twairgroup & Whisper  
   
-Development progress
+Development progress：
 
 April 21 2021
 The main source code has been developed and will be debugged soon.
@@ -31,4 +31,4 @@ New feature: transactions can be withdrawn within 5 seconds
 and still debug.
 
 May 2 2021
-The development work is nearing completion, and the first block and initial beacon will be launched soon.
+The development work is nearing completion, and the Genesis block and initial beacon will be launched soon.
