@@ -29,4 +29,7 @@ The main source code has been developed and will be debugged soon.
 
 April 24 2021
 New feature: transactions can be withdrawn within 5 seconds
-and still debug
+and still debug.
+
+May 2 2021
+The development work is nearing completion, and the first block and initial beacon will be launched soon.
