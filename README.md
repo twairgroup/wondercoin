@@ -36,8 +36,7 @@ In order to thank and inspire developers who have contributed to the maintenance
 
 ### How much WonderCoin can found?
 WonderCoin is not unlimited. There are 200 million WonderCoins hidden in all blockchains.
-And WonderCoin has a destruction mechanism to ensure that WonderCoin is valuable.
-
+And WonderCoin has the ability to withdraw transactions within 5 seconds to ensure that you have a second chance to check your payment.
 
 ## Mining information ⛏
 
