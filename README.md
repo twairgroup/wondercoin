@@ -92,7 +92,7 @@ Resource pack
 - sudo apt-get install libdb++-dev
 - sudo apt-get install git
 
-##Install WonderCoin Core Steps
+## Install WonderCoin Core Steps
 
 Get clone for github
 
