@@ -21,10 +21,8 @@ Stay safe and happy every day
 
 Twairgroup & Whisper  
   
+Development progress
 
-April 26 2021
-
-Developer log：
 April 21 2021
 The main source code has been developed and will be debugged soon.
 
