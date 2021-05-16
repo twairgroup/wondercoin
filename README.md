@@ -121,6 +121,14 @@ Command for start WonderCoin-QT
 If you meet a issue when you tring to install libqt4-dev
 
 - ``Source cant be found`` Please acces this link to solve the issue:(https://ubuntuhandbook.org/index.php/2020/07/install-qt4-ubuntu-20-04/)
+- If you meet this problem when you trying to configure WonderCoin
+- ``checking whether to build Wondercoin Core GUI... no``
+- ``configure: WARNING: LRELEASE not found; wondercoin-qt frontend will not be built``
+- Please follow those steps trying to slove the problem
+- ``sudo apt-get install qtbase5-dev``
+- ``sudo apt-get install qttools5-dev-tools``
+- Now reconfigure WonderCoin one more time,the problem was sloved.
+- Because wondercoin need QT5
 
 Ifyou meet this issue when you tring to start WonderCoin-QT
 
