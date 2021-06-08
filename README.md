@@ -43,23 +43,41 @@ And WonderCoin has the ability to withdraw transactions within 5 seconds to ensu
 WonderCoin uses the scrypt key derivation function as its
 Proof of work, the target time is one minute per block, the most difficult
 Re-adjust after each block. The block reward is fixed, halved every time
-200,000 blocks. Starting from the 700,000 block.
+200,000 blocks. Starting from the frist block.
 
 Initially, we designed an anti-attack rate of 51% to ensure that WonderCoin is safe.
 
 WonderCoin belongs to all mankind. We hope everyone can get WonderCoin through their own computer. If there is a professional Rig that disrupts this balance later, we will take measures to deal with the professional Rig that disrupts our happiness.
 
+WonderCoin wallet still supports Solo Mining (getblocktemplate)
+Of course, this is only the initial stage that you can use Solo mining (because there is no mining pool)
+We will remove RPC Solo Mining in the new version later
+
+### Solo Mining Tutorial
+1,Find ``.wondercoin``folder in your PC
+2,Create a empty file named:``wondercoin.conf``
+3,Copy those command into your ``wondercoin.conf``
+rpcuser=your username
+rpcpassword=your password
+rpcport=8666
+rpcallowip=127.0.0.1
+server=1
+listen=1
+4,Save the file and restart ``wondercoind&wondercoin-qt``
+5,Downlaod ``CPUminer`` https://github.com/jgarzik/cpuminer
+6,Before you make the ``CPUminer`` please execute this code ``libcurl4-openssl-dev``
+7,Finished CPUminer and copy this command for start mining
+./minerd --user yourRPCusername --pass yourRPCpassowrd --url http://127.0.0.1:8666/ --threads 4 --coinbase-addr yourwalletaddress --coinbase-sig "wondercoin" -a sha256d -D
+
 **The original block reward schedule:**
 
-Twairgroup is calculating. To be honest, I don't believe his mathematics. Because he has calculated for more than 3 days. (Whisper)
+50 for each block
 
-**The original block reward schedule, with one-minute block targets and four-hour difficulty readjustment:**
+**The original block reward schedule, with Three-minute block targets and One-hour difficulty readjustment:**
 
-Twairgroup is calculating.
+### Wondercoin-QT
 
-### Please help us make Wondercoin-QT
-
-We encountered some interesting bugs during development. Of course, the official release version of WonderCoin-QT has no problems.
+We have prepared a high-definition QT wallet compatible with multiple languages for WonderCoin.
 
 ### Test ports
 
@@ -68,7 +86,7 @@ We encountered some interesting bugs during development. Of course, the official
 
 ## Prepare for WonderCoin Core
 
-- Linux OS (https://ubuntu.com/download)
+- Linux OS (https://ubuntu.com/download) Minimum requirements：16.0
 
 Resource pack
 
@@ -121,6 +139,10 @@ Command for start WonderCoin-QT
 If you meet a issue when you tring to install libqt4-dev
 
 - ``Source cant be found`` Please acces this link to solve the issue:(https://ubuntuhandbook.org/index.php/2020/07/install-qt4-ubuntu-20-04/)
+- or you can try those commands
+- sudo apt-get install qt5-dev
+- sudo apt-get install qt5-default 
+- sudo apt-get install qttools5-dev-tools
 - If you meet this problem when you trying to configure WonderCoin
 - ``checking whether to build Wondercoin Core GUI... no``
 - ``configure: WARNING: LRELEASE not found; wondercoin-qt frontend will not be built``
@@ -142,3 +164,6 @@ Ifyou meet this issue when you tring to start WonderCoin-QT
 **compiling for debugging**
 
 Run `./autogen.sh` with the `./configure --with-incompatible-bdb` option, then `make`.
+### Help develop WonderCoin
+Everyone can help develop WonderCoin to make it better, join WonderCoin to develop Discord.
+Link coming soon
