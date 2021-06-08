@@ -1,0 +1,33 @@
+# /etc/conf.d/wondercoind: config file for /etc/init.d/wondercoind
+
+# Config file location
+#WONDERCOIND_CONFIGFILE="/etc/wondercoin/wondercoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $WONDERCOIND_USER)
+#WONDERCOIND_PIDDIR="/var/run/wondercoind"
+
+# What filename to give the pidfile
+#WONDERCOIND_PIDFILE="${WONDERCOIND_PIDDIR}/wondercoind.pid"
+
+# Where to write wondercoind data (be mindful that the blockchain is large)
+#WONDERCOIND_DATADIR="/var/lib/wondercoind"
+
+# User and group to own wondercoind process
+#WONDERCOIND_USER="wondercoin"
+#WONDERCOIND_GROUP="wondercoin"
+
+# Path to wondercoind executable
+#WONDERCOIND_BIN="/usr/bin/wondercoind"
+
+# Nice value to run wondercoind under
+#WONDERCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#WONDERCOIND_OPTS=""
+
+# The timeout in seconds OpenRC will wait for wondercoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+WONDERCOIND_SIGTERM_TIMEOUT=60

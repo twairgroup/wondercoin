@@ -1,0 +1,6 @@
+usr/local/bin/wondercoin-qt usr/bin
+share/pixmaps/wondercoin32.xpm usr/share/pixmaps
+share/pixmaps/wondercoin16.xpm usr/share/pixmaps
+share/pixmaps/wondercoin128.png usr/share/pixmaps
+debian/wondercoin-qt.desktop usr/share/applications
+debian/wondercoin-qt.protocol usr/share/kde4/services/
