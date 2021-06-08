@@ -59,16 +59,27 @@ We will remove RPC Solo Mining in the new version later
 2,Create a empty file named:``wondercoin.conf``
 
 3,Copy those command into your ``wondercoin.conf``
+
 rpcuser=your username
+
 rpcpassword=your password
+
 rpcport=8666
+
 rpcallowip=127.0.0.1
+
 server=1
+
 listen=1
+
 4,Save the file and restart ``wondercoind&wondercoin-qt``
+
 5,Downlaod ``CPUminer`` https://github.com/jgarzik/cpuminer
+
 6,Before you make the ``CPUminer`` please execute this code ``libcurl4-openssl-dev``
+
 7,Finished CPUminer and copy this command for start mining
+
 ./minerd --user yourRPCusername --pass yourRPCpassowrd --url http://127.0.0.1:8666/ --threads 4 --coinbase-addr yourwalletaddress --coinbase-sig "wondercoin" -a sha256d -D
 
 **The original block reward schedule:**
