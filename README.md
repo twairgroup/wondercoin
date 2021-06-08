@@ -55,7 +55,9 @@ We will remove RPC Solo Mining in the new version later
 
 ### Solo Mining Tutorial
 1,Find ``.wondercoin``folder in your PC
+
 2,Create a empty file named:``wondercoin.conf``
+
 3,Copy those command into your ``wondercoin.conf``
 rpcuser=your username
 rpcpassword=your password
