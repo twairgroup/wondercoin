@@ -9,6 +9,12 @@ WonderCoin is a brand new digital currency that will serve the social networking
 
 - **Website:** [Wondercoin.ca](https://wondercoin.ca/)
 
+### WonderCoin Community 
+
+https://discord.gg/gdzG42kG
+
+https://t.me/joinchat/UqUUP7nnhtUyMjZh
+
 ## License – Much license ⚖️
 WonderCoin Core is released under the terms of the MIT license. See
 [COPYING](COPYING) for more information or see
