@@ -59,7 +59,7 @@ WonderCoin wallet still supports Solo Mining (getblocktemplate)
 Of course, this is only the initial stage that you can use Solo mining (because there is no mining pool)
 We will remove RPC Solo Mining in the new version later
 
-### Solo Mining Tutorial
+### Solo Mining Tutorial（May get nothing）
 1,Find ``.wondercoin``folder in your PC
 
 2,Create a empty file named:``wondercoin.conf``
@@ -87,6 +87,17 @@ listen=1
 7,Finished CPUminer and copy this command for start mining
 
 ./minerd --user yourRPCusername --pass yourRPCpassowrd --url http://127.0.0.1:8666/ --threads 4 --coinbase-addr yourwalletaddress --coinbase-sig "wondercoin" -a sha256d -D
+
+### Frist mining pool (Thanks ``Original-Tasty``https://github.com/Original-Tasty help us made it)
+
+Mining Pool Link:http://47.251.45.31/
+
+Mining Tool for Windows(CCminer) Download Link:https://drive.google.com/file/d/14mp9AaGSRGQadF_mYSxZRt6EzPdhiXoW/view?usp=sharing
+
+Open readme.txt
+
+Follow the tutorials start mining
+
 
 **The original block reward schedule:**
 
