@@ -20,7 +20,7 @@ WonderCoin Core is released under the terms of the MIT license. See
 [COPYING](COPYING) for more information or see
 [opensource.org](https://opensource.org/licenses/MIT)
 
-## Development and contributions--Right now only 2 people are working on WonderCoin
+## Development and contributions
 Development is in progress, the development team and other volunteers,
 The freedom to work in their tree, and function or Bug fix is ready.
 
