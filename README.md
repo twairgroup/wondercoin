@@ -98,6 +98,13 @@ listen=1
 
 We have prepared a high-definition QT wallet compatible with multiple languages for WonderCoin.
 
+The first preview version Windows-QT
+
+Download link:https://github.com/Original-Tasty/MCpool-Wallets/releases/download/Wallets/wondercoin-0.15.2-win64-setup.exe(Developer verified）
+
+Thanks ``Original-Tasty``https://github.com/Original-Tasty Compile the first preview version of Windows-QT wallet for us!
+
+
 ### Test ports
 
 - RPC 18666
