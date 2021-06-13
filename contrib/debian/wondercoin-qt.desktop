@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Wondercoin Core
+Comment=Connect to the Wondercoin P2P Network
+Comment[de]=Verbinde mit dem Wondercoin peer-to-peer Netzwerk
+Comment[fr]=Wondercoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Wondercoin, eşten eşe kriptografik sanal para birimi
+Exec=wondercoin-qt %u
+Terminal=false
+Type=Application
+Icon=wondercoin128
+MimeType=x-scheme-handler/wondercoin;
+Categories=Office;Finance;
