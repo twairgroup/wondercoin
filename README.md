@@ -92,7 +92,7 @@ listen=1
 
 Mining Pool Link:http://47.251.45.31/
 
-Mining Tool for Windows(CCminer) Download Link:https://www.dropbox.com/s/7jop7q3vt0u5q0v/CCMiner%20for%20WonderCoin.rar?dl=0
+Mining Tool for Windows(CCminer) Download Link:https://drive.google.com/file/d/14mp9AaGSRGQadF_mYSxZRt6EzPdhiXoW/view?usp=sharing
 
 Open readme.txt
 
